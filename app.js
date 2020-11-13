@@ -49,7 +49,6 @@ async function start() {
   console.log('替换变量完毕')
   // 执行
   await exec("node JD_DailyBonus.js >> result.txt");
-  console.log('Test notify');
   console.log('执行完毕')
 
   if (serverJ) {
